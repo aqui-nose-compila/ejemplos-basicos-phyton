@@ -6,12 +6,14 @@ entero = 5
 flotante = 5.2
 complejo = 5+6j
 cadena = "¡Qué pasa tú!"
+booleano = True
 
 # Guardar en variables los tipos de datos de cada variable
 tipo_entero = type(entero)
 tipo_flotante = type(flotante)
 tipo_complejo = type(complejo)
 tipo_cadena = type(cadena)
+tipo_booleano = type(booleano)
 
 
 # Mostrar por pantalla el contenido de las variables y sus tipos
@@ -19,3 +21,4 @@ print("Variable: ", entero, " - Tipo: ", tipo_entero)
 print("Variable: ", flotante, " - Tipo: ", tipo_flotante)
 print("Variable: ", complejo, " - Tipo: ", tipo_complejo)
 print("Variable: ", cadena, " - Tipo: ", tipo_cadena)
+print("Variable: ", booleano, " - Tipo: ", tipo_booleano)
